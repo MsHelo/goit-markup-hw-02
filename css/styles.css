@@ -1,7 +1,8 @@
 /* !leader */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
+  color: #434455;
 }
 ul {
   list-style: none;
@@ -34,17 +35,22 @@ a {
 }
 /* ?header */
 .logo {
-  width: 44px;
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
 }
+.studio:hover,
+.studio:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .logo span {
-  width: 71px;
   color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
@@ -69,19 +75,20 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
 /********  main */
 /* TODO: section#1 */
 
-.section-1 {
+.section-one {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
   text-align: center;
 }
-.h1 {
+.title {
   color: #ffffff;
-  width: 496px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -94,7 +101,7 @@ a {
   color: #ffffff;
   padding: 16px 32px;
   line-height: 1.5;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -102,20 +109,16 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
 /* section#2 */
 .sc-2 {
-  width: 1440px;
-  height: 732px;
-  flex-shrink: 0;
 }
 .sc-2-item {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
 }
-.sc-2-h {
+.sc-title {
   color: #2e2f42;
   font-family: "Roboto";
   font-size: 20px;
@@ -123,7 +126,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.sc-2-text {
+.sc-text {
   color: #434455;
   font-family: "Roboto";
   font-size: 16px;
@@ -134,17 +137,12 @@ a {
 /* ! section3 */
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
   flex-shrink: 0;
 }
 
 .team-item {
-  display: inline-flex;
-  padding-bottom: 32px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 32px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
@@ -190,13 +188,11 @@ a {
 }
 /* ! footer */
 .footer {
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
   background-color: #2e2f42;
 }
 .logo .logo-footer {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
@@ -205,5 +201,4 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
 }
